@@ -1,6 +1,6 @@
 // 1кг = 7716ккол
 // 2900 ккал норма
-function cal(){
+function calculate(){
     let yourWeight = prompt('ваш вес');
     let wantWeight = prompt('желаемый вес');
     let timeToGol = prompt('время достижения в неделях');
@@ -20,8 +20,8 @@ function cal(){
     } else{alert('вы достигли желаемого')}
 }
 
-cal();
+calculate();
 
 if (confirm('Желаете повторить расчеты?')){
-    cal()
+    calculate()
  }
